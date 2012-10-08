@@ -263,6 +263,8 @@
  */
 - (void)whereSequenceNumberMatches:(NSUInteger)sequenceNum;
 
+-(void)whereKey:(NSString *)key nearPoint:(NSArray*)point withinDistance:(NSNumber*)distance;
+
 /** @name Entity Referencing */
 
 /**

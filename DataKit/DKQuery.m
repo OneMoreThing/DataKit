@@ -197,6 +197,12 @@ DKSynthesize(fieldInclExcl)
   [self whereKey:@"_seq" equalTo:[NSNumber numberWithUnsignedInteger:sequenceNum]];
 }
 
+-(void) whereKey:(NSString *)key nearPoint:(NSArray*)point withinDistance:(NSNumber*)distance {
+   [[self queryDictForKey:key] setObject:point forKey:@"$near"];
+   //[[self queryDictForKey:key] setObject:@"true" forKey:@"spherical"];
+   [[self queryDictForKey:key] setObject:distance forKey:@"$maxDistance"];
+}
+
 - (void)includeReferenceAtKey:(NSString *)key {
   if (![self.referenceIncludes containsObject:key]) {
     [self.referenceIncludes addObject:key];
