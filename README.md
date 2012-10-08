@@ -1,4 +1,4 @@
-##Datakit modified for use in [ParseKit project](https://github.com/OneMoreThing/ParseKit)
+##DataKit modified for use in [ParseKit project](https://github.com/OneMoreThing/ParseKit)
 ###-changed entityId property in DKEntity.h from readonly to strong
 ###-added geospatial query nearPoint:withinDistance:
 
