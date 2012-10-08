@@ -1,3 +1,9 @@
+##Datakit modified for use in [ParseKit project](https://github.com/OneMoreThing/ParseKit)
+###-change entityId property in DKEntity.h from readonly to strong
+###-added geospatial query nearPoint:withinDistance:
+
+
+
 Don't reinvent the wheel every time you need a web backend for your apps, add one with **DataKit** in minutes!
 
 Just spin up a server with [node](http://nodejs.org) and [MongoDB](http://www.mongodb.org) installed,
