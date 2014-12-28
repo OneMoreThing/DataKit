@@ -1,3 +1,6 @@
+**You can find an updated version with a working example on [AppCorner Social](https://github.com/appcornerit/AppCorner-Social)**
+
+
 ##DataKit modified for use in [ParseKit project](https://github.com/OneMoreThing/ParseKit)
 ###-changed entityId property in DKEntity.h from readonly to strong
 ###-added geospatial query nearPoint:withinDistance:
